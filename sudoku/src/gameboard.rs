@@ -4,16 +4,16 @@
 const SIZE: usize = 9;
 
 /// Stores game board information.
-pub struct GameBoard {
+pub struct Gameboard {
     /// Stores the content of the cells.
     /// `0` is an empty cells.
-    pub cells: [[u8; SIZE]; SIZE];
+    pub cells: [[u8; SIZE]; SIZE],
 }
 
-impl GameBoard {
+impl Gameboard {
     /// Creates a new game board.
-    pub fn new() -> GameBoard {
-        GameBoard {
+    pub fn new() -> Gameboard {
+        Gameboard {
             cells: [[0; SIZE]; SIZE],
         }
     }

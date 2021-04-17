@@ -1,0 +1,10 @@
+/Users/augustomachado/github/rust_sudoku/sudoku/target/debug/deps/bytemuck-da9883e10f491c28.rmeta: /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/lib.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/zeroable.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/pod.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/contiguous.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/offset_of.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/transparent.rs
+
+/Users/augustomachado/github/rust_sudoku/sudoku/target/debug/deps/bytemuck-da9883e10f491c28.d: /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/lib.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/zeroable.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/pod.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/contiguous.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/offset_of.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/transparent.rs
+
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/lib.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/zeroable.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/pod.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/contiguous.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/offset_of.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/bytemuck-1.5.1/src/transparent.rs:

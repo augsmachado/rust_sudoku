@@ -1,23 +1,35 @@
+#![deny(missing_docs)]
+
+//! A Sudoku game.
+
 extern crate glutin_window;
 extern crate graphics;
 extern crate opengl_graphics;
 extern crate piston;
 
 use glutin_window::GlutinWindow;
-use opengl_graphics::{OpenGL, GlGraphics};
-use piston::event_loop::{EventLoop, EventSettings, Events}; // We use to create an event loop
-use piston::input::RenderEvent; // We will handle the render events emitted by the event loop
+use opengl_graphics::{GlGraphics, OpenGL};
+use piston::event_loop::{EventLoop, EventSettings, Events};
+/// We use to create an event loop.
+use piston::input::RenderEvent;
+/// We will handle the render events emitted by the event loop.
 use piston::window::WindowSettings;
 
+
+pub use crate::gameboard::GameBoard;
+
+mod gameboard;
+
 fn main() {
-    // Set the window backend wich OpenGL version to use
+    // Set the window backend wich OpenGL version to use.
     let opengl = OpenGL::V3_2;
 
     // This function takes two parameters, the title of the window, and the window size.
     let settings = WindowSettings::new("Sudoku", [512; 2])
         .graphics_api(opengl)
         .exit_on_esc(true);
-    // The GlutinWindow struct exposes the underlying API, such that you can write platform specific code when you need it.
+    
+        // The GlutinWindow struct exposes the underlying API, such that you can write platform specific code when you need it.
     // To create a event loop, you must first make a window mutable.
     let mut window: GlutinWindow = settings.build().expect("Could not create window");
 
@@ -33,18 +45,17 @@ fn main() {
     // by DEFAULT_MAX_FPS and DEFAULT_UPS.
     while let Some(e) = events.next(&mut window) {
         if let Some(args) = e.render_args() {
-
+            
             // In generic code, the GenericEvent is used because it is easier to reason about the code when there is only one
             // trait constraint. It makes it easier to avoid a lot of work to fix breaking changes, e.g. in nested function calls.
             // The GenericEvent trait also makes it possible to implement custom events. This is important on platforms that
             // require special hardware.
             gl.draw(args.viewport(), |c, g| {
-
-                // Clear the window in a white color
-                use graphics::{clear};
                 
-                clear([1.0; 4], g);
+                // Clear the window in a white color
+                use graphics::clear;
 
+                clear([1.0; 4], g);
             });
         }
     }

@@ -17,8 +17,10 @@ use piston::window::WindowSettings;
 
 
 pub use crate::gameboard::GameBoard;
+pub use crate::gameboard_controller::GameBoardController;
 
 mod gameboard;
+mod gameboard_controller;
 
 fn main() {
     // Set the window backend wich OpenGL version to use.

@@ -8,7 +8,7 @@ extern crate opengl_graphics;
 extern crate piston;
 
 use glutin_window::GlutinWindow;
-use opengl_graphics::{GlGraphics, OpenGL};
+use opengl_graphics::{OpenGL, Filter, GlGraphics, GlyphCache, TextureSettings};
 use piston::event_loop::{EventLoop, EventSettings, Events};
 /// We use to create an event loop.
 use piston::input::RenderEvent;
@@ -42,10 +42,16 @@ fn main() {
     // The gl object stores shaders and buffers that the OpenGL backend for Piston-Graphics needs to talk with the  GPU.
     let mut gl = GlGraphics::new(opengl);
 
+    // Load the gameboard
     let gameboard = Gameboard::new();
     let mut gameboard_controller = GameboardController::new(gameboard);
     let gameboard_view_settings = GameboardViewSettings::new();
     let gameboard_view = GameboardView::new(gameboard_view_settings);
+
+    // Load the font
+    let texture_settings = TextureSettings::new().filter(Filter::Nearest);
+    let ref mut glyphs = GlyphCache::new("assets/FiraSans-Regular.ttf", (), texture_settings)
+        .expect("Could not load font");
 
     // By default, the event settings are set to a typical FPS shooter. This means that the event loop will consume a lot of
     // energy that is not needed by every kind of game. The default frame rate and update rate settings are specified
@@ -68,7 +74,7 @@ fn main() {
                 use graphics::clear;
 
                 clear([1.0; 4], g);
-                gameboard_view.draw(&gameboard_controller, &c, g);
+                gameboard_view.draw(&gameboard_controller, glyphs,&c, g);
             });
         }
     }

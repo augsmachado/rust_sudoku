@@ -1,0 +1,11 @@
+/Users/augustomachado/github/rust_sudoku/sudoku/target/rls/debug/deps/getrandom-7a2601708188fb9d.rmeta: /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/lib.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/error.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/util.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/error_impls.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/util_libc.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/use_file.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/macos.rs
+
+/Users/augustomachado/github/rust_sudoku/sudoku/target/rls/debug/deps/getrandom-7a2601708188fb9d.d: /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/lib.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/error.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/util.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/error_impls.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/util_libc.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/use_file.rs /Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/macos.rs
+
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/lib.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/error.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/util.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/error_impls.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/util_libc.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/use_file.rs:
+/Users/augustomachado/.cargo/registry/src/github.com-1ecc6299db9ec823/getrandom-0.2.2/src/macos.rs:
